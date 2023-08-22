@@ -1,0 +1,23 @@
+{
+  "name": "notion-gpt-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.11",
+    "config": "^3.3.9",
+    "openai": "^4.0.1",
+    "telegraf": "^4.12.2"
+  }
+}
